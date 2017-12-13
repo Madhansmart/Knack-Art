@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+      <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.0,     minimum-scale=1"/>
+        <link rel="logo" href="" media="all">
+        <title>ART GALLERY</title>
+        <link href="bootstrap/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="bootstrap/bootstrap_theme.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                  <meta property="og:site_name" content="TRY2LEARN">
+    <meta property="og:description" content="Try to answer the riddles">
+    <meta property="og:image" content="https://caurusacademy.org/wp-content/uploads/art-management.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image" content="https://caurusacademy.org/wp-content/uploads/art-management.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="620">
+    <meta property="og:image" content="https://caurusacademy.org/wp-content/uploads/art-management.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="620">
+        <link rel="icon" href="images/art.png" type="image/png"/>
+        <link rel="shortcut icon" href="images/art.png" type="image/x-icon" />
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="style.css" rel="stylesheet" type="text/css">
+      <link href='https://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700' rel='stylesheet' type='text/css'>
+<!--
+    	    <script>
+            var myEvent = window.attachEvent || window.addEventListener;
+            var chkevent = window.attachEvent ? 'onbeforeunload' : 'beforeunload'; /// make IE7, IE8 compatable
+ 
+            myEvent(chkevent, function(e) { // For >=IE7, Chrome, Firefox
+                var confirmationMessage = ' ';  // a space
+                (e || window.event).returnValue = confirmationMessage;
+                return confirmationMessage;
+            });
+        </script>
+ -->
+     <style>
+		 
+      </style>
+      <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;"><span></span></a>
+      <script type='text/javascript'>
+			$(document).ready(function(){ 
+				$(window).scroll(function(){ 
+					if ($(this).scrollTop() > 100) { 
+						$('#scroll').fadeIn(); 
+					} else { 
+						$('#scroll').fadeOut(); 
+					} 
+				}); 
+				$('#scroll').click(function(){ 
+					$("html, body").animate({ scrollTop: 0 }, 400); 
+					return false; 
+				}); 
+                      
+			});
+			</script>
+      
+  </head>
+    
+  <body>
+    <header>
+      <div class="container-fluid header">
+        <div class="row">
+            <nav class="navbar navbar-custom">
+               <div class="container-fluid">
+                  <div class="navbar-header">
+                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#icon" class="icon">
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                      </button>
+                        <a class="navbar-brand" href="##" style="margin-left:10px;"><b><font size="6px" color="lightgreen">K</font>NACK - <font size="6px" color="lightgreen">A</font>RT</b></a>
+                   </div>
+                   <div class="collapse navbar-collapse" id="icon">
+                     <ul class="nav navbar-nav navbar-right">
+                         <li><a href="">HOME</a></li>
+                         <li><a href="#artist">ARTIST</a></li>
+                         <li class="dropdown">
+                             <a href="#types">Types
+                             </a>
+                         </li>
+                       </ul>
+                   </div>
+                   <hr>
+                </div>
+            </nav>
+            <h2 style="color:white" class="text-center"><span class="fa fa-quote-left"></span>Eye is the most beautiful art in this world</h2>
+            <h2 class="text-center" id="text" >“Every artist was first an amateur”</h2>
+            <p class="text-center" id="text1">the expression or application of human creative skill and imagination,<br /> typically in a visual form such as painting or sculpture, producing works to be appreciated primarily <br />for their beauty or emotional power.</p>
+            <h3 class="text-center" id="text3"><b>Everything is an ART in this world. So try to love it</b></h3>
+            <div class="down-btn text-center"><a href="#meaning"><button class="btn btn-custom" id="down-btn"><span class="fa fa-angle-double-down"></span></button></a></div>
+            </div>
+          </div>
+    </header>
+
+      <div class="container-fluid text-art">
+           <div class="row text-center">
+               <a name="meaning"></a>
+              <font color="black"><h1>Meaning of ART - {???}</h1></font>
+           </div> 
+           <div class="row">
+                <div class="col-md-5 col-md-offset-1" style="margin-left: 8%">
+                     <img src="images/art.png" class="img-responsive" height="400px" width="400px">
+               </div>
+               <div class="col-md-6 text-left" id="text-border">
+                     <font color="white"><h3><i class="fa fa-quote-left" aria-hidden="true"></i>Art is a diverse range of human activities in creating visual, auditory or performing artifacts (artworks), expressing the author's imaginative or technical skill, intended to be appreciated for their beauty or emotional power.In their most general form these activities include the production of works of art, the criticism of art, the study of the history of art, and the aesthetic dissemination of art.</h3></font>
+              </div>
+        </div>
+        <div class="row" style="margin-top:3%">
+           <div class="col-md-6 text-border1 text-right" style="border-right:5px solid white;">
+                  <font color="white"><h3><i class="fa fa-quote-left" aria-hidden="true"></i><br>Pablo Picasso was a Spanish painter, sculptor, printmaker, ceramicist,  stage designer, poet and playwright who spent most of his adult life in France. Regarded as one of the most influential artists of the 20th century, he is known for co-founding the Cubist movement, the invention of constructed sculpture, the co-invention of collage, and for the wide variety of styles that he helped develop and explore. </h3></font>
+           </div> 
+            <div class="col-md-4 col-md-offset-2" style="margin-top:1%;font-family:serif;">
+                 <img src="images/picasso.jpg" class="img-responsive picasso" height="200px" width="200px">
+            </div>
+          </div>
+          </div>
+      <div class="container-fluid img-12">
+          <a name="artist"></a>
+           <div class="row text-center">
+               <h1><font color="white"><i  class="fa fa-quote-right"></i>12 Famous Masterpieces of Art Every Indian Should Recognise<i  class="fa fa-quote-right"></i></font></h1>
+           </div>
+           <div class="row text-center" style="margin-top:1%">
+              <div class="col-md-3 col-xs-6">
+                   <img src="images/first12.jpg" class="img-responsive img-thumbnail" height="300px" width="200px">
+                  <center><button class="btn btn-custom" style="margin-top:3%">1.Self Portrait <br> Amrita Sher-Gil</button></center>
+             </div>
+             <div class="col-md-3 col-xs-6">
+                 <img src="images/second121.jpg" class="img-responsive img-thumbnail" height="400px" width="400px">
+                  <center><button class="btn btn-custom" style="margin-top:3%">2.Bharat Mata<br> A Tagore</button></center>
+             </div>
+             <div class="col-md-3 col-xs-6">
+                 <img src="images/third12.jpg" class="img-responsive img-thumbnail">
+                  <center><button class="btn btn-custom" style="margin-top:3%">3. Shakuntala <br> Raja Ravi Verma</button></center>
+             </div>
+             <div class="col-md-3 col-xs-6">
+                 <img src="images/fourth12.jpg" class="img-responsive img-thumbnail">
+                  <center><button class="btn btn-custom" style="margin-top:3%">4.Bapuji <br> Nandlal Bose</button></center>
+             </div>
+         </div>
+          <div class="row text-center" style="margin-top:3%">
+             <div class="col-md-3 col-xs-6">
+                 <img src="images/fifth12.jpg" class="img-responsive img-thumbnail" height="300px" width="200px">
+                 <center><button class="btn btn-custom" style="margin-top:3%">5.Mahishasura <br> Tyeb Mehta</button></center>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                 <img src="images/sixth12.jpg" class="img-responsive img-thumbnail" height="400px" width="400px">
+                  <center><button class="btn btn-custom" style="margin-top:3%">6.Self-Portrait <br> R Tagore</button></center>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <img src="images/seventh12.jpg" class="img-responsive img-thumbnail">
+                  <center><button class="btn btn-custom" style="margin-top:3%">7.Three Pujarins <br> Jamini Roy</button></center>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <img src="images/eight12.jpg" class="img-responsive img-thumbnail">
+                  <center><button class="btn btn-custom" style="margin-top:3%">8.Horses <br> M F Husain</button></center>
+              </div>
+      </div>
+          <div class="row text-center" style="margin-top:3%">
+             <div class="col-md-3 col-xs-6">
+                 <img src="images/nine12.jpg" class="img-responsive img-thumbnail" height="300px" width="200px">
+                 <center><button class="btn btn-custom" style="margin-top:3%">9.Krishna <br> Nicholas Roerich</button></center>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                 <img src="images/tenth12.gif" class="img-responsive img-thumbnail" height="400px" width="400px">
+                  <center><button class="btn btn-custom" style="margin-top:3%">Bindu <br> S H Raza</button></center>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <img src="images/eleven12.jpeg" class="img-responsive img-thumbnail">
+                  <center><button class="btn btn-custom" style="margin-top:3%">Glow of Hope <br> S L Haldankar</button></center>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <img src="images/twelfth12.jpg" class="img-responsive img-thumbnail">
+                  <center><button class="btn btn-custom" style="margin-top:3%">Tamil Girls <br> S Elayaraja</button></center>
+              </div>
+      </div>
+      </div>
+      
+     
+           <div class="container-fluid full-content">
+      <div class="container-fluid text-center">
+          
+          <div class="row">
+               <a name="types"></a>
+            <font color="white" style="font-family: sans-serif"><h1>TYPES OF ART</h1></font>
+          </div>
+          <div class="row">
+              
+        <ul class="tabs" style="font-size:20px">
+            <div class="col-md-2 tab1">
+                <li class="tab-link current" data-tab="tab-1">Drawing</li>
+            </div>
+            <div class="col-md-1 tab2">
+                <li class="tab-link" data-tab="tab-2">Painting</li>
+            </div>
+            <div class="col-md-1 tab3">
+                <li class="tab-link" data-tab="tab-3">Ceramics</li>
+            </div>
+            <div class="col-md-2 tab4">
+                <li class="tab-link" data-tab="tab-4">Photography</li>
+            </div>
+            <div class="col-md-2 tab5">
+                <li class="tab-link" data-tab="tab-5">Architecture</li>
+            </div>
+            <div class="col-md-2 tab6">
+            <li class="tab-link" data-tab="tab-6">Sculpture</li>
+            </div>
+            <div class="col-md-2 tab7">
+            <li class="tab-link" data-tab="tab-7">Concetual Art</li>
+            </div>
+            </ul>
+         </div>
+      </div>
+
+	<div id="tab-1" class="tab-content current">
+		<div class="container-fluid" id="dra" class="tab-content current">
+          <div class="row text-center">
+              <div class="col-md-6" style="border-right:2px solid blue;">
+            <h1 style="font-variant-caps: all-petite-caps;color:blue;font-size: 40px">DRAWING</h1>
+            <h3 class="text-right">Drawing is a form of visual art in which a person uses various drawing instruments to mark paper or another two-dimensional medium. Instruments include graphite pencils, pen and ink, inked brushes, wax color pencils, crayons, charcoal, chalk, pastels, various kinds of erasers, markers, styluses, various metals (such as silverpoint) and electronic drawing.</h3>
+          </div>
+              <div class="col-md-6" style="margin-top:1%">
+                  <h3 style="font-variant-caps: all-petite-caps;color:blue;font-size: 30px">My favourite drawing ART is</h3>
+                 <img src="images/draw.jpg" class="img-responsive img-thumbnail">
+              </div>
+          </div>
+            <div class="row text-center" style="background-color:aqua">
+              <h3>Some Examples of DRAWING</h3>
+            </div>
+          <div class="row text-center" style="margin-top:2%">
+              <div class="col-md-3">
+            <img src="images/draw2.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/draw3.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/draw4.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/draw5.jpg" class="img-responsive img-thumbnail">
+                </div>
+          </div>
+      </div>
+ 
+	</div>
+	<div id="tab-2" class="tab-content">
+		 <div class="container-fluid" id="pai" class="tab-content">
+          <div class="row text-center" >
+              <div class="col-md-6" style="border-right:2px solid blue;">
+            <h1 style="font-variant-caps: all-petite-caps;color:blue;font-size: 40px">Painting</h1>
+            <h3 class="text-right">Painting is the practice of applying paint, pigment, color or other medium[1] to a solid surface (support base). The medium is commonly applied to the base with a brush, but other implements, such as knives, sponges, and airbrushes, can be used.Painting is a mode of creative expression</h3>
+          </div>
+              <div class="col-md-6">
+                  <h3 style="font-variant-caps: all-petite-caps;color:blue;font-size: 30px">My favourite painting is</h3>
+                 <img src="images/paint1.jpg" class="img-responsive img-thumbnail">
+              </div>
+          </div>
+              <div class="row text-center" style="background-color:aqua">
+               <h3>Some examples of painting ART is</h3>
+              </div>
+             <div class="row text-center" style="margin-top:2%;">
+              <div class="col-md-3">
+            <img src="images/paint2.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/paint3.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/paint4.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/paint5.jpg" class="img-responsive img-thumbnail">
+                </div>
+          </div>
+      </div>
+      
+	</div>
+	<div id="tab-3" class="tab-content">
+		   <div class="container-fluid" id="cer" class="tab-content">
+          <div class="row text-center">
+              <div class="col-md-6" style="border-right:2px solid blue">
+            <h1 style="font-variant-caps: all-petite-caps;color:blue;font-size: 40px">Ceramics</h1>
+            <h3 class="text-right">A ceramic is an inorganic compound, non-metallic, solid material comprising metal, non-metal or metalloid atoms primarily held in ionic and covalent bonds. This article gives an overview of ceramic materials from the point of view of materials science.</h3>
+          </div>
+              <div class="col-md-6">
+                  <h3 style="font-variant-caps: all-petite-caps;color:blue;font-size: 30px">My favourite CERAMIC ART is</h3>
+                 <img src="images/cera33.jpg" class="img-responsive img-thumbnail">
+              </div>
+          </div>
+               <div class="row text-center" style="background-color:aqua">
+                 <h3>Some examples of caeramics are</h3>
+               </div>
+          <div class="row text-center" style="margin-top:2%">
+              <div class="col-md-3">
+            <img src="images/cera2.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/cera1.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/cera4.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/cera5.jpg" class="img-responsive img-thumbnail">
+                </div>
+          </div>
+      </div>
+	</div>
+	<div id="tab-4" class="tab-content">
+	<div class="container-fluid" id="pho" class="tab-content">
+          <div class="row text-center">
+              <div class="col-md-6" style="border-right:2px solid blue">
+            <h1 style="font-variant-caps: all-petite-caps;color:blue;font-size: 40px">Photography</h1>
+            <h3 class="text-right">Photography is the science, art, application and practice of creating durable images by recording light or other electromagnetic radiation, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film.[1]</h3>
+          </div>
+              <div class="col-md-6">
+                  <h3 style="font-variant-caps: all-petite-caps;color:blue;font-size: 30px">My favourite photography art is</h3>
+                 <img src="images/pho5.jpg" class="img-responsive img-thumbnail">
+              </div>
+          </div>
+        <div class="row text-center" style="background-color:aqua">
+          <h3>Some examples of PHOTOGRAPHY ART are</h3>
+        </div>
+          <div class="row text-center" style="margin-top:2%">
+              <div class="col-md-3">
+            <img src="images/pho1.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/pho2.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/pho3.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/pho4.jpg" class="img-responsive img-thumbnail">
+                </div>
+          </div>
+      </div>
+      
+	</div>
+
+  <div id="tab-5" class="tab-content">
+  <div class="container-fluid" id="arc" class="tab-content">
+          <div class="row text-center">
+              <div class="col-md-6" style="border-right:2px solid blue">
+            <h1 style="font-variant-caps: all-petite-caps;color:blue;font-size: 40px">Architecture</h1>
+            <h3 class="text-right">Architecture is both the process and the product of planning, designing, and constructing buildings or any other structures.[3] Architectural works, in the material form of buildings, are often perceived as cultural symbols and as works of art. Historical civilizations are often identified with their surviving architectural achievements.</h3>
+          </div>
+              <div class="col-md-6">
+                  <h3 style="font-variant-caps: all-petite-caps;color:blue;font-size: 30px">My favourite architecture art is</h3>
+                 <img src="images/arc1.jpg" class="img-responsive img-thumbnail">
+              </div>
+          </div>
+      <div class="row text-center" style="background-color:aqua">
+         <h3>Some examples of photography art are</h3>
+      </div>
+          <div class="row text-center" style="margin-top:2%">
+              <div class="col-md-3">
+            <img src="images/arc2.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/arc3.jpeg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/arc4.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/arc5.jpg" class="img-responsive img-thumbnail">
+                </div>
+          </div>
+      </div> 
+</div>
+
+<div id="tab-6" class="tab-content">
+  <div class="container-fluid" id="scu" class="tab-content">
+          <div class="row text-center">
+              <div class="col-md-6" style="border-right:2px solid blue;">
+            <h1 style="font-variant-caps: all-petite-caps;color:blue;font-size: 40px">Sculpture</h1>
+            <h3 class="text-right">Sculpture is the branch of the visual arts that operates in three dimensions. It is one of the plastic arts. Durable sculptural processes originally used carvingand modelling, in stone, metal, ceramics, wood and other materials but, since Modernism, there has been an almost complete freedom of materials and process.</h3>
+          </div>
+              <div class="row" style="margin-top:%">
+                  <h3 style="font-variant-caps: all-petite-caps;color:blue;font-size: 30px">My favourite Sculpture is</h3>
+                 <img src="images/scul2.jpg" class="img-responsive img-thumbnail">
+              </div>
+          </div>
+      <div class="row text-center" style="background-color:aqua">
+        <h3>Some examples of sculpture are </h3>
+       </div>
+          <div class="row text-center" style="margin-top:2%">
+              <div class="col-md-3">
+            <img src="images/scul1.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/scul3.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/scul4.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/scul5.jpg" class="img-responsive img-thumbnail">
+                </div>
+          </div>
+      </div>
+</div>
+
+<div id="tab-7" class="tab-content">
+   
+      <div class="container-fluid" id="con" class="tab-content">
+          <div class="row text-center">
+              <div class="col-md-6" style="border-right:2px solid blue;margin-top:2%">
+            <h1 style="font-variant-caps: all-petite-caps;color:blue;font-size: 40px">Conceptual art</h1>
+            <h3 class="text-right">Conceptual art, sometimes simply called conceptualism, is art in which the concept(s) or idea(s) involved in the work take precedence over traditional aesthetic, technical, and material concerns</h3>
+          </div>
+              <div class="row text-center">
+                  <h3 style="font-variant-caps: all-petite-caps;color:blue;font-size: 30px">My favourite conceptual art is</h3>
+                 <img src="images/con1.jpg" class="img-responsive img-thumbnail">
+              </div>
+          </div>
+          <div class="row text-center" style="background-color:aqua">
+            <h3>Some examples of conceptual art are</h3>
+          </div>
+          <div class="row text-center" style="margin-top:2%">
+              <div class="col-md-3">
+            <img src="images/con2.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/con3.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/con4.jpg" class="img-responsive img-thumbnail">
+                </div>
+              <div class="col-md-3">
+            <img src="images/con5.jpg" class="img-responsive img-thumbnail">
+                </div>
+          </div>
+      </div>
+</div>   
+      </div>
+      <div class="container-fluid footer">
+        <div class="row text-center">
+            <h2>Thank You For Visiting this page......</h2>
+          </div>
+          <div class="row" style="margin-top:3%">
+            <div class="col-md-6 text-center">
+                <img src="images/IMG-20170111-WA0002.jpg" class="img-responsive img-thumbnail"><br>
+                <h3>My Name is MADHAN KUMAR .S</h3><br>
+                <h4>CONTACT ME IN</h4><br>
+                <div class="row ">
+                  <div class="col-md-3 col-xs-3">
+                      <img src="images/whatsapp.png"  class="img" height="40px" width="60px">
+                    </div>
+                    <div class="col-md-3 col-xs-3">
+                      <img src="images/gmail.png" class="img" height="40px" width="60px">
+                    </div>
+                    <div class="col-md-3 col-xs-3">
+                      <img src="images/linkedin.png"  class="img" height="40px" width="60px" >
+                    </div>
+                    <div class="col-md-3 col-xs-3">
+                      <img src="images/facebook.png" class="img" height="40px" width="60px">
+                    </div>
+                </div>
+              </div>
+              <h3 class="text-center" style="color:lightpink">Give Your Comments</h3>
+              <div class="col-md-4 col-md-offset-2" style="margin-top: 2%">
+                 <h4>Name</h4><br>
+                  <input type="text" placeholder="Enter Your Name"  style="margin-left:5%">
+                  
+                  <h4>Email</h4><br>
+                  <input type="text" placeholder="Enter Your Email" style="margin-left:5%">
+                  <h4>Comment</h4><br>
+                  <input type="text" placeholder="comment about this page" name="looking good" style="margin-left:5%">
+                  <br>
+                  <div class="text-center" style="margin-top:3%">
+                <button class="btn btn-custom" style="font-size:20px;color:black" id="btn" >SEND</button>
+                  </div>   
+              </div>
+          </div>
+      </div>
+      <div class="container-fluid">
+      <div class="row footer">
+          <h4 class="text-center" style="font-family: cursive">||Designed & Developed by MADHAN KUMAR||</h4>
+      </div>
+          </div>
+          <script>
+            function main(){
+            $('#btn').on('click', function(){
+                alert('This option will be updated soon');
+                $('#btn').attr("disabled", true);
+            });
+              $('.tab1').on('click',function(){
+                  $('#tab-1').hide();
+                  $('#tab-1').fadeIn(600);
+              })
+                $('.tab2').on('click',function(){
+                  $('#tab-2').hide();
+                  $('#tab-2').fadeIn(600);
+              })
+                $('.tab3').on('click',function(){
+                  $('#tab-3').hide();
+                  $('#tab-3').fadeIn(600);
+              })
+                $('.tab4').on('click',function(){
+                  $('#tab-4').hide();
+                  $('#tab-4').fadeIn(600);
+              })
+                $('.tab5').on('click',function(){
+                  $('#tab-5').hide();
+                  $('#tab-5').fadeIn(600);
+              })
+                $('.tab6').on('click',function(){
+                  $('#tab-6').hide();
+                  $('#tab-6').fadeIn(600);
+              })
+                $('.tab7').on('click',function(){
+                  $('#tab-7').hide();
+                  $('#tab-7').fadeIn(600);
+              })
+            }
+              $(document).ready(main);
+        </script>
+<script>
+    
+          $(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+    function main(){
+        $('.types-nav div').click(function(){
+            var tab_id = $(this).attr('data-tab');
+
+		$('.types-nav div').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+        })
+    }
+    $(document).ready(main);
+        </script>
+      
+           <!--     JQUERY  LINK     -->
+          <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+          <script src="http://code.jquery.com/jquery-1.7.1.js"></script>
+          <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+          <script src="jquery/jquery.min_1.js"></script>  
+           <!--  END OF JQUERY LINK  -->
+  </body>
+</html>
